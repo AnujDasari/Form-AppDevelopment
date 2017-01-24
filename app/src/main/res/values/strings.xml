@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">FORM</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="gender_txtview">Select Gender:</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="hint_street">Street</string>
+    <string name="hobbies_txtview">Select your hobbies:</string>
+    <string name="chkbox_tv_option">Watch TV</string>
+    <string name="chkbox_videogames_option">Video games</string>
+    <string name="chkbox_collectmarble_option">Collect Marble</string>
+    <string name="chkbox_readbooks_option">Read books</string>
+    <string name="chkbox_collectstamp_option">Collect Stamps</string>
+    <string name="btn_text">Save</string>
+    <string name="chkbox_termsandconditions">Accept Terms and Conditions</string>
+    <string name="spinner_country_prompt">Select Country</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="genderValidation_txtview">Gender:</string>
+    <string name="hobbiesValidation_txtview">Your selected hobbies:</string>
+    <string name="app_welcome_title">CHOOSE FORM</string>
+    <string name="editbtn_text">Save Changes</string>
+    <string name="view_forms">View Forms</string>
+    <string name="app_exit">Exit</string>
+
+    <string-array name="countries">
+        <item>India</item>
+        <item>USA</item>
+
+    </string-array>
+
+    <string-array name="Country1_states">
+        <item>Karnataka</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Assam</item>
+        <item>UP</item>
+
+
+    </string-array>
+
+    <string-array name="Country2_states">
+        <item>California</item>
+        <item>Florida</item>
+        <item>Texas</item>
+        <item>Pennsylvania</item>
+        <item>Minnesota</item>
+
+
+    </string-array>
+
+</resources>
