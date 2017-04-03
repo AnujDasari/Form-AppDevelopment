@@ -3,7 +3,6 @@ package com.anuj.task1;
 import android.content.Context;
 import android.os.Environment;
 import android.widget.EditText;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -17,6 +16,7 @@ import java.util.regex.Pattern;
  */
 public class TextHandler {
 
+    /*Using regex to validate data entered is valid or not*/
     private static final String NAME_REGEX = "^[a-z ]*$";
     private static final String EMAIL_REGEX = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@" + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
     private static final String PHONE_REGEX = "\\d{5}([- ]*)\\d{6}";
