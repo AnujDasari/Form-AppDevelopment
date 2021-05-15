@@ -1,5 +1,11 @@
 package com.anuj.task1;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -92,6 +98,8 @@ public class FormLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        AppCenter.start(getApplication(), "5c605c37-1c4a-404f-8cf9-59a6fe543200",
+                  Analytics.class, Crashes.class);
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_form_login);
